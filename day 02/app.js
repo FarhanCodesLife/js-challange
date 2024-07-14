@@ -107,7 +107,33 @@ number >= 0  ? console.log("number is positive"):console.log("number is nagative
 
 // 01
         
-console.log((10 + 20)+(10-20)-(10*20)*(10/20)/(10%20));// 20
+let one = 10
+let two = 10
+
+let add = one + two
+let sub = one - two 
+let mult = one * two
+let divd = one / two
+let remnd = one % two
+
+console.log(add);// 20
+console.log(sub);// 0
+console.log(mult);// 100
+console.log(divd);// 1
+console.log(remnd);// 0
 
 
+
+// 02 
+
+let userName = "farhan"
+let idNamber = 9 
+
+if (userName == "farhan" && idNamber == 9) {
+    console.log("you are pass");
+
+    
+}else{
+    console.log("enter correct username and idnumber");
+}
 
