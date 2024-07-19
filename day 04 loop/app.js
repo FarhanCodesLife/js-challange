@@ -123,3 +123,30 @@ for (let i = 10; i > 0; i--) {
 }
 
 
+
+
+// activity 05 
+
+// 01
+
+
+for (let index = 0; index < 10; index++) {
+    if (index == 5) {
+        continue
+        
+    }
+    console.log(index);
+    
+}
+
+
+// 02
+
+
+for (let index = 0; index < 10; index++) {
+    if (index > 7) {
+        break
+        
+    }
+    console.log(index);
+}
