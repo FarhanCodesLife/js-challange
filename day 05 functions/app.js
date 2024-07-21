@@ -77,4 +77,72 @@ console.log(checkString("0123","farhan"));
 // 01
 
 let product = (id,proName="keela")=>`your${id} and your ${proName}`
-console.log(product(11 ));
+console.log(product(11));
+
+
+// 02
+
+// let newname = function newfunction(name){
+//     // console.log("farhan");
+//     return name
+// }
+
+// function addNumber(a , b) {
+//     for (let i = 1; i <= b; i++) {
+//         // a()
+//         console.log(a("jawad"));
+        
+//     }
+    
+
+// }
+// addNumber(newfunction(),10)
+// // addNumber(newname, 5)
+
+
+
+
+// const repeatFunction = (func, times) => {
+//     for (let i = 0; i < times; i++) {
+//         func();
+//     }
+// };
+// // Example usage:
+// const sayHello = () => {
+//     console.log("Hello!");
+// };
+// repeatFunction(sayHello, 3);
+
+
+
+
+
+
+
+
+
+let name5 = function newfunction(name,b){
+    console.log(b(name));
+    return `${name} is 19 year old`
+
+}
+let name6 = function newfunction(name){
+    // console.log("farhan");
+    return name
+}
+
+
+function addNumber(a , b ,c) {
+    for (let i = 1; i <= c; i++) {
+        // a()
+
+        // console.log(a("jawad"));
+        
+    }
+    console.log(a("Muhammad jawad" , b))
+    
+
+}
+addNumber(name5,name6,10)
+
+
